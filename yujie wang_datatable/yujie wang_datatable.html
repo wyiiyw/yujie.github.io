@@ -16,9 +16,11 @@
                 <table id="data-table" class="table table-bordered">  
                      <thead>  
                           <tr>  
-                               <th>Name</th>  
-                               <th>Gender</th>  
-                               <th>Designation</th>  
+                               <th>artist_name</th>  
+                               <th>artist_gross</th>  
+                               <th>artist_artist_tourname</th> 
+                               <th>artist_artist_attendance</th>  
+                               <th>artist_artist_averageattdance</th>  
                           </tr>  
                      </thead>  
                 </table>  
@@ -30,9 +32,11 @@
       $('#data-table').DataTable({  
            "ajax"     :     "employee_data.json",  
            "columns"     :     [  
-                {     "data"     :     "name"     },  
-                {     "data"     :     "gender"},  
-                {     "data"     :     "designation"}  
+                {     "data"     :     "artist_name"     },  
+                {     "data"     :     "artist_gross"},  
+                {     "data"     :     "artist_artist_tourname"     },  
+                {     "data"     :     "artist_artist_attendance"},  
+                {     "data"     :     "artist_artist_averageattdance"}  
            ]  
       });  
  });  
