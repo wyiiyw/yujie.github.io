@@ -18,9 +18,9 @@
                           <tr>  
                                <th>artist_name</th>  
                                <th>artist_gross</th>  
-                               <th>artist_artist_tourname</th> 
-                               <th>artist_artist_attendance</th>  
-                               <th>artist_artist_averageattdance</th>  
+                               <th>artist_tourname</th> 
+                               <th>artist_attendance</th>  
+                               <th>artist_averageattdance</th>  
                           </tr>  
                      </thead>  
                 </table>  
@@ -30,13 +30,13 @@
  <script>  
  $(document).ready(function(){  
       $('#data-table').DataTable({  
-           "ajax"     :     "employee_data.json",  
+           "ajax"     :     "yujie wang_datatable.json",  
            "columns"     :     [  
-                {     "data"     :     "artist_name"     },  
+                {     "data"     :     "artist_name"     } ,
                 {     "data"     :     "artist_gross"},  
-                {     "data"     :     "artist_artist_tourname"     },  
-                {     "data"     :     "artist_artist_attendance"},  
-                {     "data"     :     "artist_artist_averageattdance"}  
+                {     "data"     :     "artist_tourname"     },  
+                {     "data"     :     "artist_attendance"},  
+                {     "data"     :     "artist_averageattdance"}  
            ]  
       });  
  });  

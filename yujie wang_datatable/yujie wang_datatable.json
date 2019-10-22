@@ -1,22 +1,31 @@
-{  
-     "artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Ed Sheeran\t$775"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"U2\t$736"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Guns N' Roses\t$563"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"The Rolling Stones\t$558"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Coldplay\t$523"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Roger Waters\t$458"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"AC/DC\t$441"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"The Rolling Stones\t$415.600.000	No Filter Tour	2"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Metallica\t$414"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Madonna\t$407"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Pink\t$397"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"U2\t$389"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Bruno Mars\t$375"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Garth Brooks\t$364"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"The Police\t$362"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Bruce Springsteen and the E Street Band\t$355"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Taylor Swift\t$345"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"The Rolling Stones\t$320"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"U2\t$316"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"The Rolling Stones\t$311"},
-          {"artist_name\tartist_gross	artist_artist_tourname	artist_artist_attendance	artist_artist_averageattdance":"Bruce Springsteen and the E Street Band\t$306"}]
+{ "data"  :     
+     [
+ 
+     [   
+           {"artist_name":"Ed Sheeran","artist_gross":775046937,"artist_tourname":"Tour","artist_attendance":8796567,"artist_averageattdance":34496},
+          {"artist_name":"U2","artist_gross":736421584,"artist_tourname":"U2 360Tour","artist_attendance":7272046,"artist_averageattdance":66110},
+          {"artist_name":"Guns N' Roses","artist_gross":563300000,"artist_tourname":"Not in This Lifetime... Tour","artist_attendance":4377126,"artist_averageattdance":35017},
+          {"artist_name":"The Rolling Stones","artist_gross":558255524,"artist_tourname":"A Bigger Bang Tour","artist_attendance":4680000,"artist_averageattdance":32500},
+          {"artist_name":"Coldplay","artist_gross":523033675,"artist_tourname":"A Head Full of Dreams Tour","artist_attendance":5389586,"artist_averageattdance":45128},
+          {"artist_name":"Roger Waters","artist_gross":458673798,"artist_tourname":"The Wall Live","artist_attendance":4129863,"artist_averageattdance":18858},
+          {"artist_name":"AC/DC","artist_gross":441121000,"artist_tourname":"Black Ice World Tour","artist_attendance":4846965,"artist_averageattdance":29023},
+          {"artist_name":"The Rolling Stones","artist_gross":415600000,"artist_tourname":"No Filter Tour","artist_attendance":2290871,"artist_averageattdance":50909},
+          {"artist_name":"Metallica","artist_gross":414450000,"artist_tourname":"WorldWired Tour","artist_attendance":4055397,"artist_averageattdance":29175},
+          {"artist_name":"Madonna","artist_gross":407713266,"artist_tourname":"Sticky Sweet Tour","artist_attendance":3545899,"artist_averageattdance":41716},
+          {"artist_name":"Pink","artist_gross":397300,"artist_tourname":"Beautiful Trauma World Tour","artist_attendance":3088647,"artist_averageattdance":19799},
+          {"artist_name":"U2","artist_gross":389047636,"artist_tourname":"Vertigo Tour","artist_attendance":4619021,"artist_averageattdance":35259},
+          {"artist_name":"Bruno Mars","artist_gross":375828391,"artist_tourname":"24K Magic World Tour","artist_attendance":3298583,"artist_averageattdance":16102},
+          {"artist_name":"Garth Brooks","artist_gross":364300000,"artist_tourname":"World Tour","artist_attendance":6443727,"artist_averageattdance":14669},
+          {"artist_name":"The Police","artist_gross":362000000,"artist_tourname":"The Police Reunion Tour","artist_attendance":3300912,"artist_averageattdance":23083},
+          {"artist_name":"Bruce Springsteen and the E Street Band","artist_gross":355600000,"artist_tourname":"Wrecking Ball World Tour","artist_attendance":3650535,"artist_averageattdance":18744},
+          {"artist_name":"Taylor Swift","artist_gross":345700000,"artist_tourname":"Taylor Swift  Reputation Stadium Tour","artist_attendance":2888892,"artist_averageattdance":54507},
+          {"artist_name":"The Rolling Stones","artist_gross":320000000,"artist_tourname":"Voodoo Lounge Tour","artist_attendance":6336776,"artist_averageattdance":51103},
+          {"artist_name":"U2","artist_gross":316990940,"artist_tourname":"The Joshua Tree Tour 2017","artist_attendance":2713136,"artist_averageattdance":53198},
+          {"artist_name":"The Rolling Stones","artist_gross":311000000,"artist_tourname":"Licks Tour","artist_attendance":3470945,"artist_averageattdance":30182},
+          {"artist_name":"Bruce Springsteen and the E Street Band","artist_gross":306500000,"artist_tourname":"The River Tour 2016","artist_attendance":2667775,"artist_averageattdance":29020}
+     ]  
+     ]}
+      
+
+
+ 
