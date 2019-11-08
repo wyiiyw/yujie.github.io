@@ -76,9 +76,9 @@ $(document).ready(function(){
                data: dataSet,
                retrieve: true,
                columns: [
-                   { title: "Product",
+                   { title: "place",
                      defaultContent:""},
-                   { title: "Total Amount",
+                   { title: "price",
                        defaultContent:"" },
                ]
            } );
@@ -89,11 +89,11 @@ $(document).ready(function(){
                     type : 'bar'
                 },
                 axis: {
-                  x: {label: 'Product'},
-                  y: {label: '# of Items'}
+                  x: {label: 'place'},
+                  y: {label: 'price'}
                 },
                 bar: {
-                    title: "# of Items by Product Category:",
+                    title: "# of Items by p Category:",
                 }
             });
 

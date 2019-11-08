@@ -98,12 +98,12 @@
     $.getJSON(airtable_read_endpoint, function(result) {
            $.each(result.records, function(key,value) {
                items = {};
-                   items["name"] = value.fields.Name;
-                   items["url"] = value.fields.Lat;
-                   items["image_url"] = value.fields.Lng;
-                   items["latitud"] = value.fields.url;
-                   items["longitud"] = value.fields.pic;
-                   items["longitud"] = value.fields.pic_url;
+                   items["name"] = value.fields.name;
+                   items["url"] = value.fields.url;
+                   items["pic_url"] = value.fields.pic_url;
+                   items["latitud"] = value.fields.lat;
+                   items["longitud"] = value.fields.lng;
+                   items["pic"] = value.fields.pic;
                    data.push(items);
                    console.log(items);
             }); // end .each
@@ -115,7 +115,7 @@ function show_districts(){
           for (var i in data) {
               var latlng = L.latLng({ lat: data[i].latitud, lng: data[i].longitud});
               L.marker( latlng )
-                  .bindPopup( '<a href="' + data[i].url + '" target="_blank">' + '<img src="' + data[i].pic_url+'" width = "80px"><br>'+data[i].Name + '</a >' )
+                  .bindPopup( '<a href="' + data[i].url + '" target="_blank">' + '<img src="' + data[i].pic_url+'" width = "80px"><br>'+data[i].name + '</a >' )
                   .addTo(map);
           }
         }
