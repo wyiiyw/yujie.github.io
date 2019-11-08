@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     $("button#show_h2").click(function() {
         $("h2").show(300);
-        $("h2").css("color","red");
+        $("h2").css("color","blue");
         $("h2").html("You clicked me hard.");
     });
 
@@ -18,7 +18,7 @@ $(document).ready(function(){
     $("button#get_data").click(function() {
         var items = [];
         var i = 0;
-        var airtable_read_endpoint = "https://api.airtable.com/v0/appKIU0zkdHt3AVTL/Product?api_key=keycj6dRwXwYLEjiv"
+        var airtable_read_endpoint = "https://api.airtable.com/v0/appPlsyuPDbCgXrZq/Table%201?api_key=key2uwrms0Q8wkXEY"
         var dataSet = [];
         $.getJSON(airtable_read_endpoint, function(result) {
                $.each(result.records, function(key,value) {
@@ -60,7 +60,7 @@ $(document).ready(function(){
      $("button#get_data2").click(function() {
       var items = [];
       var i = 0;
-      var airtable_read_endpoint = "https://api.airtable.com/v0/appKIU0zkdHt3AVTL/Roll-up?api_key=keycj6dRwXwYLEjiv";
+      var airtable_read_endpoint = "https://api.airtable.com/v0/appPlsyuPDbCgXrZq/Table%201?api_key=key2uwrms0Q8wkXEY";
       var dataSet = [];
       $.getJSON(airtable_read_endpoint, function(result) {
              $.each(result.records, function(key,value) {
